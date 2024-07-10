@@ -43,6 +43,28 @@ The .exe file is the only file you need to run this application as a user.
 
 ## Support
 
+### How to run on linux
+
+Change to the directory containing the Python script
+
+    cd /path/to/source/
+
+Run the Python script (version may be diff)
+
+    python AutoPrompt-v1.3.py
+
+
+### Compile your own .exe file 
+
+Change to the directory containing the Python script
+  	
+    cd /path/to/python/script/directory
+
+Run the following command to use pyinstaller to build an executable from the souce. Verify your version # in command matchs the version in source  dir.
+     
+     pyinstaller --onefile --add-data "parts/*;parts" -w AutoPrompt-v1.3.py
+
+
 Drop a tip
 
     (BTC) address bc1qnpjpacyl9sff6r4kfmn7c227ty9g50suhr0y9j
