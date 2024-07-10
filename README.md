@@ -17,7 +17,8 @@ Enjoy.
 
 ## Download
 
-Look for AutoPrompt-v1.exe above and click it to start download. 
+Look for AutoPrompt-v1.exe above and click it to start download. Version of file will be diff. depending on how many new 
+ updates since this was written. 
 
 The .exe file is the only file you need to run this application as a user. 
 
@@ -42,3 +43,12 @@ Drop a tip
 
 
 ![noarche's GitHub stats](https://github-readme-stats.vercel.app/api?username=noarche&show_icons=true&theme=transparent)
+
+
+## Update Notes:
+
+V1.2 - 7/10/2024
+
+    Fixed bug to help with string randomization. 
+
+    Additional strings added. 
