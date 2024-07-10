@@ -7,7 +7,10 @@ Think of these boxes as containers with a bunch of random prompts.
 The final prompt will be combined with a comma inbetween
 the random strings pulled from the boxes,
 You do not need to change check boxes to get a new random
-prompt,
+prompt. 
+
+More checkboxs selected = longer prompt. 
+
 Paste the prompt into your favorite Al-image gen. platform.
 Enjoy.
 
