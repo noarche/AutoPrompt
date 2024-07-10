@@ -80,7 +80,25 @@ Run the following command to use pyinstaller to build an executable from the sou
      pyinstaller --onefile --add-data "parts/*;parts" -w AutoPrompt-v1.3.py
 
 
-Drop a tip
+
+
+## ꧁꧂ Update Notes:
+
+
+V1.3 - 7/10/2024
+
+    Fixed small bug that will make prompt more random. 
+
+    Additional prompts added. 
+
+    Now app will generate random complete prompt even if the user does not check any boxes. 
+
+
+
+![noarche's GitHub stats](https://github-readme-stats.vercel.app/api?username=noarche&show_icons=true&theme=transparent)
+
+
+## ꧁꧂ Drop a tip
 
     (BTC) address bc1qnpjpacyl9sff6r4kfmn7c227ty9g50suhr0y9j
     
@@ -90,15 +108,5 @@ Drop a tip
 
 
 
-![noarche's GitHub stats](https://github-readme-stats.vercel.app/api?username=noarche&show_icons=true&theme=transparent)
 
 
-## Update Notes:
-
-V1.3 - 7/10/2024
-
-    Fixed small bug that will make prompt more random. 
-
-    Additional prompts added. 
-
-    Now app will generate random complete prompt even if the user does not check any boxes. 
