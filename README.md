@@ -4,7 +4,7 @@
 
 
 
-# ꧁꧂ 🔮AutoPrompt
+# ꧁꧂ 🔮 AutoPrompt
 ### Over 100 billion unique prompt possibilities. 
 
 *Actual number is closer to 8.254∗10^35*
@@ -27,14 +27,14 @@ Use this app and try to find your sweet spot keywords to build your own prompts.
 
 Compatible will all image generation platforms!! Paste the prompt into your favorite Al-image gen. platform. *If you are not running a local model using comfyui or A1111 or forge stay away from the erotic and uncensored checkboxes!*
 
-### 🍀Bonus Prompts:
+### 🍀 Bonus Prompts:
 
 Feeling lucky? Leave all the boxes empty and press Generate for a random yet complete prompt that someone else has used to make a pretty cool image!
 
 
 ------------------------------------------------
 
-# ꧁꧂ 🌐Download
+# ꧁꧂ 🌐 Download
 
 Look for AutoPrompt-v1.3.exe above and click it to start download. Version of file will be diff. depending on how many new 
  updates since this was written. 
@@ -47,7 +47,7 @@ The .exe file is the only file you need to run this application as a user.
 
 # Support
 
-## 🛡️Is this a virus❔
+## 🛡️ Is this a virus❔
 
 No it is not a virus, that is a false positive. Anything compiled with pyinstaller will be flagged as potentially malicious. Pyinstaller is what turns the .py file into a .exe file and allows people to run python scripts as portable applications without the need to install python or any dependancies.  
 
@@ -56,14 +56,14 @@ Please scan the actual source, the file that ends with '.py' -  It will with no 
 
 🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻
 
-☑️Tip for all questionable applications: 
+☑️ Tip for all questionable applications: 
 
 *Running the application via [Sandboxie](https://sandboxie-plus.com/downloads/) or similar app will virutalize and protect your OS as if it was running on a virtual machine - [Sandboxie](https://sandboxie-plus.com/downloads/) can be used with any application or installation package thus another great tool to have.* 
 
 🔺🔺🔺🔺🔺🔺🔺🔺🔺🔺🔺🔺🔺🔺🔺🔺🔺🔺🔺🔺🔺🔺🔺🔺
 
 
-## ꧁꧂ ✨How to run on linux❔ 
+## ꧁꧂ ✨ How to run on linux❔ 
 
 *You are also able to run the app this way on windows by installing python on windows.* 
 
@@ -85,7 +85,7 @@ Run the Python script (version may be diff)
 
 
 
-## ꧁꧂ ✨How to Compile your own .exe file❔ 
+## ꧁꧂ ✨ How to Compile your own .exe file❔ 
 
 *You are able to build your own exe file from the source on a windows and linux machine. Follow the steps below, assuming you have already installed pip*
 
@@ -112,12 +112,10 @@ Pyinstaller will created a couple of directories and files.
 ------------------------------------------------
 
 
-## ꧁꧂ 📢Update Notes:
+## ꧁꧂ 📢 Update Notes:
 
 
-➡️V1.4
-
-📌7/10/2024
+📌  | v1.4 | Released Date 7/10/2024
 
     3 new check box options; Furries, Mood, Uncensored 
     Fixed small bug that now prompts will be more randomly pulled from checkbox containers. 
@@ -128,7 +126,7 @@ Pyinstaller will created a couple of directories and files.
 ![noarche's GitHub stats](https://github-readme-stats.vercel.app/api?username=noarche&show_icons=true&theme=transparent)
 
 
-## ꧁꧂ 🪙Drop a tip
+## ꧁꧂ 🪙 Drop a tip
 
     (BTC) address bc1qnpjpacyl9sff6r4kfmn7c227ty9g50suhr0y9j
     
