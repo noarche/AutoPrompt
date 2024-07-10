@@ -17,7 +17,7 @@ Create random prompts to help with learning how to generate AI art.
 
 # ꧁꧂ 🪄 How & Why to Use
 
-To Generate a prompt place a check in the boxes. 
+To Generate a prompt: place a check in the boxes. 
 Think of these boxes as containers packed full of random prompts.
 The final prompt will be combined as one prompt with a comma inbetween
 the random strings pulled from the boxes. 
