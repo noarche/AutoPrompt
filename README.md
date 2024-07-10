@@ -21,9 +21,11 @@ the random strings pulled from the boxes,
 You do not need to change check boxes to get a new random
 prompt. 
 
-More checkboxs selected = longer prompt. 
+More checkboxs selected = longer prompt. This doesnt nessacarily mean a higher quality outcome. 
 
-Paste the prompt into your favorite Al-image gen. platform.
+Use this app and try to find your sweet spot keywords to build your own prompts. 
+
+Compatible will all image generation platforms!! Paste the prompt into your favorite Al-image gen. platform. *If you are not running a local model using comfyui or A1111 or forge stay away from the erotic and uncensored checkboxes!*
 
 Bonus Prompts:
 
@@ -98,7 +100,7 @@ Run the following command to use pyinstaller to build an executable from the sou
      
      pyinstaller --onefile --add-data "parts/*;parts" -w AutoPrompt-v1.3.py
 
-Pyinstaller will created a couple of directories and files. 
+🔵Pyinstaller will created a couple of directories and files. 
 
     The .exe you want is located in \source\dist\AutoPrompt-v1.3.exe
 
@@ -110,11 +112,10 @@ Pyinstaller will created a couple of directories and files.
 
 V1.4 - 7/10/2024
 
-    2 new check box options; Furries & Uncensored 
-    Fixed small bug that will make prompt more random. 
-    Additional prompts added to existing options and 
-    Now app will generate random complete prompt even if the user does not check any boxes. 
-
+    3 new check box options; Furries, Mood, Uncensored 
+    Fixed small bug that now prompts will be more randomly pulled from checkbox containers. 
+    MANY Additional prompts have been added to most of the existing checkbox containers.  
+    Leave all check boxes empty and press generate to see a prompt that someone else has used to generate an image.
 
 
 ![noarche's GitHub stats](https://github-readme-stats.vercel.app/api?username=noarche&show_icons=true&theme=transparent)
