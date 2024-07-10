@@ -61,7 +61,7 @@ Install pre-requsites with pip
 
 Change to the directory containing the Python script
 
-    cd /path/to/source/
+    cd /AutoPrompt/source/
 
 Run the Python script (version may be diff)
 
@@ -73,15 +73,19 @@ Run the Python script (version may be diff)
 
 *You are able to build your own exe file from the source on a windows and linux machine. Follow the steps below, assuming you have already installed pip*
 
+Clone this repo with git
+
+    git clone https://github.com/noarche/AutoPrompt
+
 Install pre-requsites with pip
 
     pip install tkinter
 
 Change to the directory containing the Python script
   	
-    cd /path/to/python/script/directory
+    cd /AutoPrompt/source/
 
-Run the following command to use pyinstaller to build an executable from the souce. Verify your version # in command matchs the version in source  dir.
+Run the following command to use pyinstaller to build an executable from the souce. Verify your version # in command matchs the version in source  dir. 
      
      pyinstaller --onefile --add-data "parts/*;parts" -w AutoPrompt-v1.3.py
 
