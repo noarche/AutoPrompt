@@ -14,6 +14,8 @@ Enjoy.
 
 ## Download
 
+Look for AutoPrompt-v1.exe above and click it to start download. 
+
 The .exe file is the only file you need to run this application as a user. 
 
 (The other files are the source files used to create the .exe)
