@@ -33,7 +33,7 @@ Enjoy.
 
 # ꧁꧂ Download
 
-Look for AutoPrompt-v1.exe above and click it to start download. Version of file will be diff. depending on how many new 
+Look for AutoPrompt-v1.3.exe above and click it to start download. Version of file will be diff. depending on how many new 
  updates since this was written. 
 
 The .exe file is the only file you need to run this application as a user. 
