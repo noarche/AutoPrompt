@@ -27,7 +27,7 @@ The .exe file is the only file you need to run this application as a user.
 
 
 
-![screenshot](https://github.com/noarche/AutoPrompt/blob/main/source/Screenshot.png?raw=true)
+![screenshot](https://github.com/noarche/AutoPrompt/blob/main/source/AutoPrompt.gif?raw=true)
 
 
 ## Support
