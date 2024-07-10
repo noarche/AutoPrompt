@@ -47,9 +47,13 @@ The .exe file is the only file you need to run this application as a user.
 # Support
 
 
-## ꧁꧂ How to run on linux
+## ꧁꧂ How to run on linux 
 
 *You are also able to run the app this way on windows by installing python on windows.* 
+
+Clone this repo with git
+
+    git clone https://github.com/noarche/AutoPrompt
 
 Install pre-requsites with pip
 
