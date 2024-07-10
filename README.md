@@ -46,6 +46,9 @@ The .exe file is the only file you need to run this application as a user.
 
 # Support
 
+## Is this a virus?
+
+No it is not a virus, that is a false positive. Anything compiled with pyinstaller will be flagged as potentially malicious. Pyinstaller is what turns the .py file into a .exe file and allows people to run python scripts as portable applications without the need to install python or any dependancies.  Please scan the actual source, the file that ends with '.py' -  It will with no doubt be 100% clean on virustotal.  That being said I have provided instructions on how to build your own exe from the file you know is clean. Running the application [Sandboxie](https://sandboxie-plus.com/downloads/) or similar app will virutalize and protect you as well - [Sandboxie](https://sandboxie-plus.com/downloads/) can be used with any app thus another great tool to have.  
 
 ## ꧁꧂ How to run on linux 
 
