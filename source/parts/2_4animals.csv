@@ -1,8 +1,7 @@
--material- dragon
--color- dragon
--color- creature
 -color- and -color- creature
-Animal
+-color- creature
+-color- dragon
+-material- dragon
 Abyssinian Cat
 Albatross
 Alligator
@@ -10,6 +9,7 @@ Allosaurus
 Alpaca
 American Shorthair Cat
 Anaconda
+Animal
 Ankylosaurus
 Ant
 Armadillo
@@ -108,6 +108,7 @@ Gyarados
 Hare
 Hawk
 Hedgehog
+Heffer
 Heron
 Himalayan Cat
 Hippopotamus
@@ -127,7 +128,6 @@ Kingfisher
 Kiwi
 Koala
 Korat Cat
-Kraken
 Kraken
 Labrador Retriever
 Ladybird
@@ -259,3 +259,10 @@ Yak
 Yeti
 Yorkshire Terrier
 Zebra
+Zebrafish
+catfish
+giant grizzly bear
+giant stingray
+giant tuna
+swordfish
+trout
