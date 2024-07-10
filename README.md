@@ -61,7 +61,7 @@ Install pre-requsites with pip
 
 Change to the directory containing the Python script
 
-    cd /AutoPrompt/source/
+    cd \AutoPrompt\source\
 
 Run the Python script (version may be diff)
 
@@ -83,13 +83,15 @@ Install pre-requsites with pip
 
 Change to the directory containing the Python script
   	
-    cd /AutoPrompt/source/
+    cd \AutoPrompt\source\
 
 Run the following command to use pyinstaller to build an executable from the souce. Verify your version # in command matchs the version in source  dir. 
      
      pyinstaller --onefile --add-data "parts/*;parts" -w AutoPrompt-v1.3.py
 
-Pyinstaller will created a couple of directories and files. The .exe you want is located in the new directory named 'dist'
+Pyinstaller will created a couple of directories and files. 
+
+    The .exe you want is located in \source\dist\AutoPrompt-v1.3.exe
 
 ------------------------------------------------
 
