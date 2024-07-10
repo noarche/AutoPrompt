@@ -1,5 +1,6 @@
 # AutoPrompt
-Create random prompts to help with learning how to generate AI art. 
+### Over 1 Million Prompts  
+Create random prompts to help with learning how to generate AI art.
 
 
 To Generate a prompt place a check in the boxes. 
@@ -12,6 +13,9 @@ prompt.
 More checkboxs selected = longer prompt. 
 
 Paste the prompt into your favorite Al-image gen. platform.
+
+Need a prompt but not sure what to check? Generate a compelte random prompt by just pressing Generate Prompt. 
+
 Enjoy.
 
 
@@ -47,8 +51,10 @@ Drop a tip
 
 ## Update Notes:
 
-V1.2 - 7/10/2024
+V1.3 - 7/10/2024
 
-    Fixed bug to help with string randomization. 
+    Fixed small bug that will make prompt more random. 
 
-    Additional strings added. 
+    Additional prompts added. 
+
+    Now app will generate random complete prompt even if the user does not check any boxes. 
