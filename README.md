@@ -1,6 +1,6 @@
 
 
-![screenshot](https://github.com/noarche/AutoPrompt/blob/main/source/AutoPrompt.gif?raw=true)
+![screenshot](https://github.com/noarche/AutoPrompt/blob/main/source/AutoPrompt1.5.gif?raw=true)
 
 
 
@@ -118,11 +118,12 @@ Pyinstaller will created a couple of directories and files.
 ## ꧁꧂ 📢 Update Notes:
 
 
-📌  | v1.4 | Released Date 7/10/2024
+📌  | v1.5 | Released Date 7/10/2024
 
-    3 new check box options; Furries, Mood, Uncensored 
+    2 new check box options | Furries & Mood
     Fixed small bug that now prompts will be more randomly pulled from checkbox containers. 
     MANY Additional prompts have been added to most of the existing checkbox containers.  
+    Dark Theme by default.
     Leave all check boxes empty and press generate to see a prompt that someone else has used to generate an image.
 
 
