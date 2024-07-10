@@ -4,7 +4,7 @@
 
 
 
-# AutoPrompt
+# ꧁꧂ AutoPrompt
 ### Over 100 billion unique prompt possibilities. 
 
 *Actual number is closer to 8.254∗10^35*
@@ -29,8 +29,9 @@ Need a prompt but not sure what to check? Generate a compelte random prompt by j
 
 Enjoy.
 
+------------------------------------------------
 
-# Download
+# ꧁꧂ Download
 
 Look for AutoPrompt-v1.exe above and click it to start download. Version of file will be diff. depending on how many new 
  updates since this was written. 
@@ -39,12 +40,12 @@ The .exe file is the only file you need to run this application as a user.
 
 (The other files are the source files used to create the .exe)
 
-
+------------------------------------------------
 
 # Support
 
 
-## How to run on linux
+## ꧁꧂ How to run on linux
 
 *You are also able to run the app this way on windows by installing python on windows.* 
 
@@ -60,9 +61,9 @@ Run the Python script (version may be diff)
 
     python AutoPrompt-v1.3.py
 
-------------------------------------------------
 
-## How to Compile your own .exe file 
+
+## ꧁꧂ How to Compile your own .exe file 
 
 *You are able to build your own exe file from the source on a windows and linux machine. Follow the steps below, assuming you have already installed pip*
 
