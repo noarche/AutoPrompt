@@ -100,7 +100,7 @@ Run the following command to use pyinstaller to build an executable from the sou
      
      pyinstaller --onefile --add-data "parts/*;parts" -w AutoPrompt-v1.3.py
 
-🔵Pyinstaller will created a couple of directories and files. 
+Pyinstaller will created a couple of directories and files. 
 
     The .exe you want is located in \source\dist\AutoPrompt-v1.3.exe
 
