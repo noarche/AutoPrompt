@@ -13,17 +13,20 @@
 
 Create random prompts to help with learning how to generate AI art.
 
+------------------------------------------------
+
+# ꧁꧂ 🪄 How & Why to Use
 
 To Generate a prompt place a check in the boxes. 
-Think of these boxes as containers with a bunch of random prompts.
-The final prompt will be combined with a comma inbetween
-the random strings pulled from the boxes,
-You do not need to change check boxes to get a new random
-prompt. 
+Think of these boxes as containers packed full of random prompts.
+The final prompt will be combined as one prompt with a comma inbetween
+the random strings pulled from the boxes. 
+Random is Random! You will never generate the same prompt twice!!
+You do not need to change check boxes to get a new unique prompt. 
 
 More checkboxs selected = longer prompt. This doesnt nessacarily mean a higher quality outcome. 
 
-Use this app and try to find your sweet spot keywords to build your own prompts. 
+Use this app and try to find your sweet spot keywords to build your own prompts. Mix and match, I like  to run about 3-5, that seems good enought but not like to much to be all over the place. Combining the correct checkboxes will also result in better prompts. 
 
 Compatible will all image generation platforms!! Paste the prompt into your favorite Al-image gen. platform. *If you are not running a local model using comfyui or A1111 or forge stay away from the erotic and uncensored checkboxes!*
 
