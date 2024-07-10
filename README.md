@@ -116,6 +116,7 @@ Pyinstaller will created a couple of directories and files.
 
 
 ➡️V1.4
+
 📌7/10/2024
 
     3 new check box options; Furries, Mood, Uncensored 
