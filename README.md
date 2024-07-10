@@ -59,7 +59,7 @@ Please scan the actual source, the file that ends with '.py' -  It will with no 
 
 🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻🔻
 
-☑️ Tip for all questionable applications: 
+🛡️ Tip for all questionable applications: 
 
 *Running the application via [Sandboxie](https://sandboxie-plus.com/downloads/) or similar app will virutalize and protect your OS as if it was running on a virtual machine - [Sandboxie](https://sandboxie-plus.com/downloads/) can be used with any application or installation package thus another great tool to have.* 
 
