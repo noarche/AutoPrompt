@@ -45,6 +45,10 @@ The .exe file is the only file you need to run this application as a user.
 
 ### How to run on linux
 
+Install pre-requsites with pip
+
+    pip install tkinter
+
 Change to the directory containing the Python script
 
     cd /path/to/source/
@@ -55,6 +59,10 @@ Run the Python script (version may be diff)
 
 
 ### Compile your own .exe file 
+
+Install pre-requsites with pip
+
+    pip install tkinter
 
 Change to the directory containing the Python script
   	
