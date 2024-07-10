@@ -1,5 +1,8 @@
 # AutoPrompt
-### Over 1 Million Prompts  
+### Over 100 billion unique prompt possibilities.
+
+Chances of two people generating the same prompt is low/slim!
+
 Create random prompts to help with learning how to generate AI art.
 
 
