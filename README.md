@@ -110,10 +110,9 @@ Pyinstaller will created a couple of directories and files.
 
 V1.4 - 7/10/2024
 
+    2 new check box options; Furries & Uncensored 
     Fixed small bug that will make prompt more random. 
-
-    Additional prompts added to existing options and 2 new check box options; Furries & Uncensored 
-
+    Additional prompts added to existing options and 
     Now app will generate random complete prompt even if the user does not check any boxes. 
 
 
