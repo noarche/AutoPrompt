@@ -12,6 +12,13 @@ Paste the prompt into your favorite Al-image gen. platform.
 Enjoy.
 
 
+## Download
+
+The .exe file is the only file you need to run this application as a user. 
+
+(The other files are the source files used to create the .exe)
+
+
 
 
 ![screenshot](https://github.com/noarche/AutoPrompt/blob/main/Screenshot.png?raw=true)
