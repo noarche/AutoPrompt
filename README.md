@@ -25,7 +25,9 @@ More checkboxs selected = longer prompt.
 
 Paste the prompt into your favorite Al-image gen. platform.
 
-Need a prompt but not sure what to check? Generate a compelte random prompt by just pressing Generate Prompt. 
+Bonus Prompts:
+
+Leave all the boxes empty and press Generate for a random complete prompt that someone else has used!
 
 Enjoy.
 
