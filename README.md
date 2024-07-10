@@ -1,3 +1,9 @@
+
+
+![screenshot](https://github.com/noarche/AutoPrompt/blob/main/source/AutoPrompt.gif?raw=true)
+
+
+
 # AutoPrompt
 ### Over 100 billion unique prompt possibilities. 
 
@@ -33,10 +39,6 @@ The .exe file is the only file you need to run this application as a user.
 
 (The other files are the source files used to create the .exe)
 
-
-
-
-![screenshot](https://github.com/noarche/AutoPrompt/blob/main/source/AutoPrompt.gif?raw=true)
 
 
 ## Support
