@@ -1,7 +1,7 @@
 # AutoPrompt
-### Over 100 billion unique prompt possibilities.
+### Over 100 billion unique prompt possibilities. 
 
-Chances of two people generating the same prompt is low/slim!
+*Actual number is closer to 8.254∗10^35* Chances of two people generating the same prompt is low/slim!
 
 Create random prompts to help with learning how to generate AI art.
 
