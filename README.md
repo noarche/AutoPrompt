@@ -139,6 +139,8 @@ Pyinstaller will created a couple of directories and files.
     (LTC) address ltc1qu7ze2hlnkh440k37nrm4nhpv2dre7fl8xu0egx
 
 
+------------------------------------------------
+
 
 ### Looking for easy oogabooga API interface?
 
