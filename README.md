@@ -142,10 +142,10 @@ Pyinstaller will created a couple of directories and files.
 ------------------------------------------------
 
 
-### Looking for easy oogabooga API interface?
+### Looking for easy way tool to auto crop transparent images?
 
-Check out my API multi-tool
+Check out my AutoCrop tool
 
-https://github.com/noarche/Multi-API-tool
+https://github.com/noarche/AutoCrop
 
 
