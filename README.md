@@ -1,7 +1,4 @@
-
-
-![screenshot](https://github.com/noarche/AutoPrompt/blob/main/source/AutoPrompt1.5.gif?raw=true)
-
+![prompt24](https://github.com/user-attachments/assets/f1ec243d-0f20-401f-a25f-5894df253c51)
 
 
 # ꧁꧂ 🔮 AutoPrompt
