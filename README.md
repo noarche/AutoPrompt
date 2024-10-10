@@ -95,7 +95,7 @@ Clone this repo with git
 
 Install pre-requsites with pip
 
-    pip install tkinter
+    pip install pyqt
 
 Change to the directory containing the Python script
   	
