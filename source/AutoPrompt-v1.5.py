@@ -1,7 +1,7 @@
-import tkinter as tk
-from tkinter import messagebox, ttk
-import random
 import os
+import random
+from PyQt6 import QtWidgets, QtCore, QtGui
+import sys
 
 # Change to the script directory
 script_directory = os.path.dirname(__file__)
@@ -36,59 +36,87 @@ def select_random_line_from_csv_file(file):
                     chosen_lines.append(random.choice(lines).strip())
     return "".join(chosen_lines)
 
-# Class for the main application
-class AutoPromptApp:
-    def __init__(self, root):
-        self.root = root
-        self.root.title("AutoPrompt v1.5")
-        self.root.configure(bg='black')
+# Main Application Class
+class AutoPromptApp(QtWidgets.QWidget):
+    def __init__(self):
+        super().__init__()
 
-        self.style = ttk.Style()
-        self.style.configure('TButton', background='black', foreground='black')
-        self.style.configure('TLabel', background='black', foreground='lime')
-        self.style.configure('TCheckbutton', background='black', foreground='lime')
-        self.style.configure('TFrame', background='black')
+        # Set up the window
+        self.setWindowTitle("AutoPrompt v1.5")
+        self.setGeometry(100, 100, 800, 600)
+        self.setStyleSheet("""
+            QWidget {
+                background-color: rgba(34, 34, 34, 0.9);
+                color: white;
+                font-size: 14px;
+            }
+            QLineEdit {
+                background-color: #333333;
+                color: white;
+                padding: 5px;
+            }
+            QPushButton {
+                background-color: #555555;
+                border: 1px solid #444444;
+                padding: 8px;
+                color: white;
+            }
+            QPushButton:hover {
+                background-color: #666666;
+            }
+            QLabel {
+                font-size: 16px;
+            }
+            QCheckBox {
+                color: cyan;
+            }
+        """)
+
+        self.init_ui()
+
+    def init_ui(self):
+        # Layouts
+        layout = QtWidgets.QVBoxLayout()
         
-        font = ('TkDefaultFont', 11)  # Increase font size by 1
-        self.root.option_add('*TButton.font', font)
-        self.root.option_add('*TLabel.font', font)
-        self.root.option_add('*TCheckbutton.font', font)
-        self.root.option_add('*TEntry.font', font)
+        # Prompt input box
+        self.prompt_input = QtWidgets.QLineEdit(self)
+        self.prompt_input.setPlaceholderText("Generated prompt will appear here")
+        layout.addWidget(self.prompt_input)
 
-        self.prompt_text = tk.StringVar()
+        # Checkbox area for CSV files
+        self.checkbox_layout = QtWidgets.QGridLayout()
+        layout.addLayout(self.checkbox_layout)
 
-        self.textbox = tk.Entry(root, textvariable=self.prompt_text, width=80, bg='black', fg='lime', insertbackground='purple')
-        self.textbox.pack(pady=10)
-
+        # Add checkboxes for each CSV file
         self.check_vars = {}
-        self.checkbuttons = []
+        self.add_checkboxes()
 
-        self.name_of_files = get_filename()
-        self.create_checkboxes()
+        # Generate Prompt button
+        self.generate_button = QtWidgets.QPushButton("Generate Prompt", self)
+        self.generate_button.clicked.connect(self.generate_prompt)
+        layout.addWidget(self.generate_button)
 
-        self.generate_button = ttk.Button(root, text="Generate Prompt", command=self.generate_prompt)
-        self.generate_button.pack(pady=10)
+        # Copy to Clipboard button
+        self.copy_button = QtWidgets.QPushButton("Copy to Clipboard", self)
+        self.copy_button.clicked.connect(self.copy_to_clipboard)
+        layout.addWidget(self.copy_button)
 
-        self.copy_button = ttk.Button(root, text="Copy to Clipboard", command=self.copy_to_clipboard)
-        self.copy_button.pack(pady=10)
-        
-        # Add About button
-        self.about_button = ttk.Button(root, text="About", command=self.show_about)
-        self.about_button.pack(pady=10)
+        # About button
+        self.about_button = QtWidgets.QPushButton("About", self)
+        self.about_button.clicked.connect(self.show_about)
+        layout.addWidget(self.about_button)
 
-    def create_checkboxes(self):
-        frame = ttk.Frame(self.root, style='TFrame')
-        frame.pack()
+        self.setLayout(layout)
 
-        col_count = 0
+    def add_checkboxes(self):
+        name_of_files = get_filename()
         row_count = 0
+        col_count = 0
 
-        for idx, name in enumerate(self.name_of_files):
-            var = tk.BooleanVar()
-            checkbutton = tk.Checkbutton(frame, text=name, variable=var, bg='black', fg='cyan', selectcolor='black', activebackground='black', activeforeground='purple')
-            checkbutton.grid(row=row_count, column=col_count, sticky='w')
-            self.check_vars[name] = var
-            self.checkbuttons.append(checkbutton)
+        for idx, name in enumerate(name_of_files):
+            checkbox = QtWidgets.QCheckBox(name)
+            self.checkbox_layout.addWidget(checkbox, row_count, col_count)
+            self.check_vars[name] = checkbox
 
             row_count += 1
             if row_count >= 15:
@@ -96,21 +124,32 @@ class AutoPromptApp:
                 col_count += 1
 
     def generate_prompt(self):
-        selected_parts = [name for name, var in self.check_vars.items() if var.get()]
+        selected_parts = [name for name, checkbox in self.check_vars.items() if checkbox.isChecked()]
         if selected_parts:
             prompt = ", ".join(select_random_line_from_csv_file(part) for part in selected_parts)
         else:
             prompt = select_random_line_from_collection()
-        self.prompt_text.set(prompt.strip())
+        self.prompt_input.setText(prompt.strip())
 
     def copy_to_clipboard(self):
-        self.root.clipboard_clear()
-        self.root.clipboard_append(self.prompt_text.get())
+        clipboard = QtWidgets.QApplication.clipboard()
+        clipboard.setText(self.prompt_input.text())
 
     def show_about(self):
-        messagebox.showinfo("About", "Autoprompt generates random prompts to be used for AI Image generation using any platform. The purpose is to help users of all experience lvls expand their prompting for better generation results.\nIt is a good idea to make a note of the prompts you like to circle back to and curate your own arsenal of prompts.\n\nVersion 1.5\nBuild Date:\nJuly 10 2024\n\nHelp:\n\nTo Generate a prompt place a check in the boxes. Think of these boxes as containers with a bunch of random prompts. The final prompt will be combined with a comma inbetween the random strings pulled from the boxes.\nYou do not need to change check boxes to get a new random prompt.\nPaste the prompt into your favorite AI-image gen. platform.\n\nEnjoy.\n\nVisit GitHub for more information and updates.\nhttps://github.com/noarche/AutoPrompt")
+        QtWidgets.QMessageBox.information(self, "About", 
+            "Autoprompt generates random prompts for AI image generation platforms.\n"
+            "The purpose is to help users expand their prompting for better generation results.\n"
+            "Select CSV files, generate a prompt, and paste it into your favorite platform.\n\n"
+            "Version 1.5\nBuild Date: July 10 2024\n\nVisit GitHub for more information and updates:\nhttps://github.com/noarche/AutoPrompt")
+
+
+# Run the Application
+def main():
+    app = QtWidgets.QApplication(sys.argv)
+    window = AutoPromptApp()
+    window.show()
+    sys.exit(app.exec())
 
 if __name__ == "__main__":
-    root = tk.Tk()
-    app = AutoPromptApp(root)
-    root.mainloop()
+    main()
+
